@@ -10,14 +10,16 @@
     border-radius: 20px;
     background-color: white;
     padding:15px 10px 20px 10px ;
+
     display: grid;
     grid-template-columns: 220px 110px 105px 105px 105px 116px 148px 100px 166px ;
     grid-template-rows:70px 85px 140px 140px 90px  ;
 
     grid-gap: 5px;
 }
+
+
 .item-1{
-    /* background-color: aqua; */
     grid-row: 1 / 9;
     grid-column: 1 /2;
     border-radius: 20px 0px 0px 20px;
@@ -27,8 +29,6 @@
 .PopularProducts{
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
-    /* margin-left: 5px; */
 }
 
 .gap-2{
@@ -81,9 +81,9 @@
     align-items: center;
 }
 
+
 .item-2{
     border-radius: 0px 20px 0px 0px;
-    /* background-color: aqua; */
     grid-row: 1 / 2;
     grid-column: 2 /-1;
     display: flex;
@@ -176,8 +176,8 @@
     margin-right: 20px;
 }
 
+
 .item-3{
-    /* background-color: aqua; */
     grid-row: 2 / 3;
     grid-column: 2 /-1;
     display: flex;
@@ -214,8 +214,6 @@
 
 .Filters{
     border: none;
-    /* border-radius: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px; */
     border-radius: 40px;
     padding: 13px 28px 13px 28px;
 }
@@ -242,14 +240,10 @@
     background-image: url(shoes-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* align-items: column; */
     flex-direction:column
 }
 
 .Get-up{
-    /* width: 427px;
-    height: 100px;
-    border-radius: 20px; */
     margin: 0px;
 }
 
@@ -260,6 +254,7 @@
     border-radius: 20px;
 }
 
+
 .item-5{
     background-color: aqua;
     grid-row: 5 / 4;
@@ -268,15 +263,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* justify-content: center; */
     background-image: url(shoes-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* flex-direction:column */
 }
 
 .Winter{
-    /* padding: 30px; */
     margin: 70px 0px 0px 30px;
 }
 
@@ -286,7 +278,7 @@
 }
 
 .next{
-    margin: 0px 10px 50px 0px;
+    margin: 0px 15px 75px 0px;
 }
 
 .next-1{
@@ -295,20 +287,19 @@
     padding: 7px;
 }
 
+
 .item-6{
     background-color: aqua;
     grid-row: 9 / 5;
     grid-column: 2 / 4;
     border-radius: 20px;
-    /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    /* justify-content: center; */
     background-image: url(shoes-5.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* flex-direction:column */
 }
+
 .heart{
     border: none;
     border-radius: 15px;
@@ -322,8 +313,9 @@
     border-radius: 25px;
     width: 140px;
     height: 40px;
-    margin: 135px 38px 10px 39px;
+    margin: 145px 38px 10px 39px;
 }
+
 
 .item-7{
     background-color: white;
@@ -333,17 +325,10 @@
     border-width: 1px;
     border-style: solid;
     border-color: black;
-
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: center;
-    /* justify-content: center; */
-    /* flex-direction:column */
     padding: 10px 20px 10px 20px;
 }
 
 .Arow-Left{
-    /* padding: 10px; */
     margin-bottom: 5px;
     width: 152px;
     height: 50px;
@@ -360,8 +345,6 @@
 
 .shoee-2{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     justify-content: space-between;
     background-color: #FFEFE3;
     width: 153px;
@@ -388,19 +371,15 @@
     padding: 10px;
 }
 
+
 .item-8{
     background-color: aqua;
     grid-row: 3 / 6;
     grid-column: 8 / 6;
     border-radius: 20px;
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: center;
-    /* justify-content: center; */
-    background-image: url(shoes-8.jpg);
+    background-image: url(shoes-13.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    /* flex-direction:column */
 }
  
 .simples{
@@ -409,8 +388,6 @@
     align-items: center;
     justify-content: space-between;
     margin: 0px 0px 10px 10px;
-    /* margin-top: 10px; */
-    /* margin-right: 210px; */
 }
 
 .simplee{
@@ -422,7 +399,6 @@
     border-width: 3px;
     border-style: solid;
     border-color: white;
-    /* background-color: black; */
     padding: 5px;
     border-radius: 25px;
 }
@@ -430,9 +406,6 @@
 .simple-button{
     height: 10px;
     width: 10px;
-    /* border-width: 3px;
-    border-style: solid;
-    border-color: white; */
     background-color: black;
     padding: 5px;
     border-radius: 25px;
@@ -476,19 +449,15 @@
     margin: 0px 15px 10px 60px;
 }
 
+
 .item-9{
     background-color: aqua;
     grid-row: 3 / 6;
     grid-column: 10 / 8;
     border-radius: 20px;
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: center;
-    /* justify-content: center; */
-    background-image: url(shoes-6.jpg);
+    background-image: url(shoes-12.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    /* flex-direction:column */
 }
 
 .simples{
@@ -497,8 +466,6 @@
     align-items: center;
     justify-content: space-between;
     margin: 0px 0px 10px 10px;
-    /* margin-top: 10px; */
-    /* margin-right: 210px; */
 }
 
 .simplee{
@@ -510,7 +477,6 @@
     border-width: 3px;
     border-style: solid;
     border-color: #4AC518;
-    /* background-color: black; */
     padding: 5px;
     border-radius: 25px;
 }
@@ -518,9 +484,6 @@
 .simple-button-1{
     height: 10px;
     width: 10px;
-    /* border-width: 3px;
-    border-style: solid;
-    border-color: white; */
     background-color: black;
     padding: 5px;
     border-radius: 25px;
@@ -564,19 +527,15 @@
     margin: 0px 15px 10px 60px;
 }
 
+
 .item-10{
     background-color: aqua;
     grid-row: 9 / 6;
     grid-column: 6 / 10;
     border-radius: 20px;
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: center;
-    /* justify-content: center; */
-    background-image: url(shoes-10.jpeg);
+    background-image: url(shoes-15.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    /* flex-direction:column */
 }
 
 .Bold{
