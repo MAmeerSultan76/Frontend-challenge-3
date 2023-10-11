@@ -5,6 +5,7 @@
 }
 
 .container-1{
+    font-family: 'Hanken Grotesk', sans-serif;
     display: flex;
     margin: 20px;
     border-radius: 20px;
@@ -549,4 +550,10 @@
 
 .next-2{
     margin: 15px 15px 0px 500px;
+}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 800px) {
+    
 }
